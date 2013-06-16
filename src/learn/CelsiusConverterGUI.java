@@ -43,6 +43,7 @@ public class CelsiusConverterGUI extends javax.swing.JFrame {
         celsiusLabel.setText("Celsius");
 
         convertButton.setText("Convert");
+        convertButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         convertButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 convertButtonActionPerformed(evt);
